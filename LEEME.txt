@@ -1,0 +1,19 @@
+FOOTBALL PERFORMANCE — versión inicial
+
+Contenido:
+- index.html: aplicación.
+- manifest.json: configuración instalable.
+- sw.js: caché básica para uso sin conexión.
+
+Para probar:
+1. Extraé el ZIP.
+2. Abrí index.html en Chrome para probar las funciones básicas.
+3. Los datos se guardan en el almacenamiento local del navegador.
+
+Para instalar como PWA en Android:
+Los archivos deben estar alojados en un sitio HTTPS (por ejemplo, GitHub Pages).
+Luego abrí la dirección con Chrome en Android > menú ⋮ > Instalar aplicación / Agregar a pantalla principal.
+
+Importante:
+- No borres los datos del sitio/navegador sin antes exportar una copia de seguridad desde Ajustes.
+- Esta es una primera versión local; no sincroniza entre dispositivos.
